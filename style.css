@@ -1,0 +1,165 @@
+
+* {
+    background-color: #f2e2ce;
+    font-size: 1.5rem;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    height: 4.5rem;
+}
+
+.head__title {
+    color: #8C452B;
+    font-family: 'Miltonian', serif;
+    font-weight: 400;
+    padding: 2.5%;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    border-radius: 3%;
+    width: 160px;
+    height: 130px;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin: 2% 2.5%;
+}
+
+.contenido__area__encriptacion {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.encriptacion__container {
+    display: flex;
+    background-color: rgb(224, 204, 179);
+    color: #726351;
+    font-family: 'Simonetta', serif;
+    font-size: 1rem;
+    border: 0px;
+    border-radius: 3%;
+    padding: 5%;
+    margin: 5% ;
+}
+
+.text {
+    font-family: 'Simonetta', serif;
+    color: #8C452B;
+    font-weight: 400;
+    font-size: 0.7rem;
+    margin: 0rem 1.3rem;
+}
+
+.botones {
+    display: flex;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Simonetta', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #8C452B;
+    background-color: #AFD9AD;
+    width: 50%;
+    padding: 2%;
+    border: 0;
+    border-radius: 30%;
+    margin: 0.1% 5% 2.5% 5%;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #b4faf4;
+    border: 2px solid #8C452B;
+}
+
+.contenido__area__desencriptacion {
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #afd9ad;
+    width: auto;
+    margin: 0% -0.6% -1% -1%;
+}
+
+
+.pie__pagina__texto {
+    background-color: #AFD9AD;
+    color: #8c452b;
+    font-family: 'Simonetta', serif;
+    font-weight: 400;
+    font-size: 0.7rem;
+}
+
+.icon {
+    background-color: #AFD9AD;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.icon:hover {
+    width: 55px;
+    height: 55px;
+}
+
+@media (max-width: 1200px) {
+    
+    .head__title {
+        font-size: 1.4rem;
+    }
+
+    .image {
+        width: 140px;
+        height: 110px;
+    }
+
+    .contenido {
+        flex-direction: column;
+
+    }
+
+    footer {
+        margin: 0% -1.5% -10% -1.5%;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    .head {
+        gap: 0.2rem;
+    }
+
+    .head__title {
+        font-size: 1rem;
+        text-align-last: center;
+    }
+
+    .image {
+        margin-top: 8%;
+        width: 100px;
+        height: 70px;
+    }
+
+    footer {
+        margin: 0% -2% -10% -2%;
+    }
+}
